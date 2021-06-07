@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="application.AplicacionController">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: cyan;" stylesheets="@application.css" BorderPane.alignment="CENTER">
+         <children>
+            <DatePicker fx:id="dp1_id" onAction="#mostrar" />
+            <Label fx:id="lbl1_id" prefHeight="17.0" prefWidth="100.0" style="-fx-text-fill: red; -fx-alignment: center;" stylesheets="@application.css" text="Label" />
+            <ComboBox fx:id="cb1_id" onAction="#consultar" prefWidth="150.0" promptText="Seleccione una ciudad" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
