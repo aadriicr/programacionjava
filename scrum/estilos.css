@@ -1,0 +1,26 @@
+@media screen and (max-width: 1000px){
+	body{
+	  	grid-template-areas:
+		'cabecera cabecera cabecera cabecera cabecera cabecera'
+		'menu1 menu1 menu1 menu1 menu1 menu1'
+		'home home home enlace enlace enlace'
+		'contenido contenido contenido contenido contenido contenido'
+		'pie pie pie pie pie pie';
+		padding: 5%; 	}
+	
+		@font-face {
+			font-family: 'icomoonregular';
+			src: local('icomoonregular'),
+				 url('icomoon-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('icomoon-webfont.woff') format('woff'),
+				 url('icomoon-webfont.ttf') format('truetype'),
+				 url('icomoon-webfont.svg#icomoonregular') format('svg');
+			font-weight: normal;
+			font-style: normal;
+			font-strecht: condensed;
+			unicode-range: "U+0-10FFFF";
+		}
+		
+		
+	
+	}
